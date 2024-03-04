@@ -10,8 +10,8 @@
     "children": []
   },
   "workspaceSettings": {
-    "modid": "minecraft_ultimate",
-    "modName": "Minecraft Ultimate",
+    "modid": "minecraft_ultimate_forge",
+    "modName": "Minecraft Ultimate Forge",
     "version": "1.0.0",
     "author": "samuel vrignaud",
     "websiteURL": "https://mcreator.net",
