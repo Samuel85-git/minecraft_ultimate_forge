@@ -1,9 +1,27 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Bloctuluviarite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloctuluviarite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/minecraft_ultimate_forge/models/item/bloctuluviarite.json",
+          "src/main/resources/assets/minecraft_ultimate_forge/blockstates/bloctuluviarite.json",
+          "src/main/resources/assets/minecraft_ultimate_forge/models/block/bloctuluviarite.json",
+          "src/main/java/net/mcreator/minecraftultimate/block/BloctuluviariteBlock.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.minecraft_ultimate_forge.bloctuluviarite": "Bloctuluviarite"
+    }
   },
   "foldersRoot": {
     "name": "~",
