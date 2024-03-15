@@ -16,7 +16,7 @@ import net.mcreator.minecraftultimate.MinecraftUltimateForgeMod;
 
 public class MinecraftUltimateForgeModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, MinecraftUltimateForgeMod.MODID);
-	public static final RegistryObject<Item> BLOCTULUVIARITE = block(MinecraftUltimateForgeModBlocks.BLOCTULUVIARITE);
+	public static final RegistryObject<Item> BLOCPOLIURITE = block(MinecraftUltimateForgeModBlocks.BLOCPOLIURITE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

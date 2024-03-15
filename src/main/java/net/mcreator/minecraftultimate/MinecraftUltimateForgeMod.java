@@ -29,6 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.minecraftultimate.init.MinecraftUltimateForgeModTabs;
 import net.mcreator.minecraftultimate.init.MinecraftUltimateForgeModItems;
 import net.mcreator.minecraftultimate.init.MinecraftUltimateForgeModBlocks;
 
@@ -53,6 +54,8 @@ public class MinecraftUltimateForgeMod {
 		MinecraftUltimateForgeModBlocks.REGISTRY.register(bus);
 
 		MinecraftUltimateForgeModItems.REGISTRY.register(bus);
+
+		MinecraftUltimateForgeModTabs.REGISTRY.register(bus);
 
 	}
 

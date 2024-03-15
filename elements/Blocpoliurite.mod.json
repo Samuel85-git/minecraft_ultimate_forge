@@ -2,12 +2,12 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "bloc_tuluviarite",
-    "textureTop": "bloc_tuluviarite",
-    "textureLeft": "bloc_tuluviarite",
-    "textureFront": "bloc_tuluviarite",
-    "textureRight": "bloc_tuluviarite",
-    "textureBack": "bloc_tuluviarite",
+    "texture": "texture_bloc_poliurite",
+    "textureTop": "texture_bloc_poliurite",
+    "textureLeft": "texture_bloc_poliurite",
+    "textureFront": "texture_bloc_poliurite",
+    "textureRight": "texture_bloc_poliurite",
+    "textureBack": "texture_bloc_poliurite",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Bloctuluviarite",
+    "name": "poliurite",
     "specialInformation": {
       "fixedValue": []
     },
@@ -42,9 +42,9 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
@@ -56,7 +56,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "ROCK"
+      "value": "IRON"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -70,7 +70,7 @@
       "value": ""
     },
     "offsetType": "NONE",
-    "aiPathNodeType": "DEFAULT",
+    "aiPathNodeType": "BLOCKED",
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
@@ -121,11 +121,7 @@
     "fluidRestrictions": [],
     "generateFeature": false,
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "TAG:stone_ore_replaceables"
-      }
-    ],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,

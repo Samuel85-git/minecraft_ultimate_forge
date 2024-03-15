@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft_ultimate_forge:block/bloctuluviarite",
+  "parent": "minecraft_ultimate_forge:block/blocpoliurite",
   "display": {
     "thirdperson": {
       "rotation": [

@@ -1,17 +1,17 @@
 {
   "mod_elements": [
     {
-      "name": "Bloctuluviarite",
+      "name": "Blocpoliurite",
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bloctuluviarite",
+      "registry_name": "blocpoliurite",
       "metadata": {
         "files": [
-          "src/main/resources/assets/minecraft_ultimate_forge/models/item/bloctuluviarite.json",
-          "src/main/resources/assets/minecraft_ultimate_forge/blockstates/bloctuluviarite.json",
-          "src/main/resources/assets/minecraft_ultimate_forge/models/block/bloctuluviarite.json",
-          "src/main/java/net/mcreator/minecraftultimate/block/BloctuluviariteBlock.java"
+          "src/main/resources/assets/minecraft_ultimate_forge/blockstates/blocpoliurite.json",
+          "src/main/resources/assets/minecraft_ultimate_forge/models/item/blocpoliurite.json",
+          "src/main/resources/assets/minecraft_ultimate_forge/models/block/blocpoliurite.json",
+          "src/main/java/net/mcreator/minecraftultimate/block/BlocpoliuriteBlock.java"
         ]
       }
     }
@@ -20,7 +20,7 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.minecraft_ultimate_forge.bloctuluviarite": "Bloctuluviarite"
+      "block.minecraft_ultimate_forge.blocpoliurite": "poliurite"
     }
   },
   "foldersRoot": {
@@ -30,7 +30,8 @@
   "workspaceSettings": {
     "modid": "minecraft_ultimate_forge",
     "modName": "Minecraft Ultimate Forge",
-    "version": "1.0.0",
+    "version": "1.0.0.100.1",
+    "description": "build 100.1",
     "author": "samuel vrignaud",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
